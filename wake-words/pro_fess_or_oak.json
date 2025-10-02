@@ -1,9 +1,8 @@
-
 {
   "type": "micro",
   "wake_word": "professor oak",
   "author": "sudoxnym",
-  "tflite": "pro_fess_or_oak.tflite",
+  "model": "./pro_fess_or_oak.tflite",
   "trained_languages": ["English"],
   "version": 2,
   "micro": {
