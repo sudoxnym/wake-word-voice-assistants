@@ -1,0 +1,15 @@
+{
+  "type": "micro",
+  "wake_word": "professor oak",
+  "author": "sudoxnym",
+  "model": "pro_fess_or_oak.tflite",
+  "trained_languages": ["English"],
+  "version": 2,
+  "micro": {
+    "probability_cutoff": 0.5,
+    "sliding_window_size": 5,
+    "feature_step_size": 10,
+    "tensor_arena_size": 8192,
+    "minimum_esphome_version": "2024.7"
+  }
+}
